@@ -6,6 +6,7 @@ body {
     font-family: 'Fredoka One', cursive;
     font-family: 'Kaushan Script', cursive;
     font-family: 'Monoton', cursive;
+    overflow: hidden;
 }
 #particles-js {
     background: #000000;
@@ -13,129 +14,40 @@ body {
     width: 100%;
     position: fixed;
     z-index: -100;
+    position: absolute;
 }
-#home {
-    background: fixed;
-    width: 100%;
-}
-#home-content-box {
-    width: 100%;
-    height: 100%;
-    display: table;
-}
-#home-content-box-inner 
-{
-    display: table-cell;
-    vertical-align: middle;
+
+h1 {
+    position: relative;
+    font-family:'Abril Fatface', cursive;
+    color: white;
     text-align: center;
+    padding-top: 200px;
+    font-size: 50px;
 }
-#home-heading h3 
-{
-    color: #fff;
+
+h3 {
+    position: relative;
+    font-family:'Abril Fatface', cursive;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    position: relative;
+    font-family:'Abril Fatface', cursive;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
     font-size: 20px;
-    font-weight: 700;
-    margin: 20px 0 20px 0;
-
 }
-#home-heading h5
-{
-    color: #fff;
-    font-size: 10px;
-    font-weight: 300;
-    margin: 20px 0 20px 0;
-    font-family:'Fredoka One', cursive;
 
-}
-#home-heading h6
-{
-    color: #fff;
+a {
+    position: relative;
+    font-family:'Abril Fatface', cursive;
+    color: white;
+    padding-top: 20px;
+    margin-left: 44%;
     font-size: 20px;
-    font-weight: 300;
-    margin: 20px 0px 20px 0;
-    font-family:'Fredoka One', cursive;
-    text-align: center;
-
-}
-.footer
-{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-}
-#footer-bottom {
-    background-color: rgba(34, 191, 164, 0.8);
-    margin-top: 240px;
-    padding: 30px 0px;
-}
-#footer-menu {
-    float: right;
-    color: #fff;
-    font-size: 16px;
-    font-family: 'Abril Fatface', cursive;
-    font-weight: 200;
-    margin-top: 80px;
-}
-#footer-menu ul {
-    list-style: none;
-    padding-left: 0px;
-    margin: 0;
-}
-#footer-menu ul li {
-    display: inline-block;
-}
-#footer-menu a {
-    color: #fff;
-    font-size: 16px;
-    text-decoration: none;
-    margin: 0 10px;
-}
-#footer-menu a:hover,
-#footer-menu a:focus {
-    color: #000000;
-}
-#home-heading ul
-{
-    list-style: none;
-    font-size: 16px;
-    color: #fff;
-    font-family: 'Fredoka One', cursive;
-}
-#home-heading i
-{
-    color: #22BFA4;
-
-}
-#footer-icons h4 {
-    font-family: 'Abril Fatface', cursive;
-    text-align: center;
-    color: #fff;
-}
-#footer-icons .social-btn {
-    padding: 0px 100px 0px 100px;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    text-align: center;
-}
-.row no-gutter {
-    border: 0px;
-}
-.social-btn i {
-    color: #fff;
-}
-.social-btn i:hover,
-.social-btn i:focus {
-    border-color: #000000;
-    color: #000000;
-}
-.row no-gutter {
-    margin: 0px;
-    padding: 0px;
-}
-.navbar-header i
-{
-    color: #fff;
-}
-.navbar-header i:hover{
-    background-color: #22BFA4;
 }
